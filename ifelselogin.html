@@ -1,0 +1,30 @@
+
+<script>
+
+
+function lw()
+{
+y=document.getElementById("d3");
+
+z=document.getElementById("d4");
+
+
+
+if(y.value=="rizwan"&&z.value=="shoeb")
+{
+alert("login succesfull");
+alert("now you can use the live html interpreter");
+document.location="interpreter.html";
+}
+else
+{
+alert("username or password not found");
+}
+}
+</script>
+<input id="d3"/>
+<br />
+<input type="password" id="d4"/>
+<br />
+
+<button onclick=lw()>login </button>
